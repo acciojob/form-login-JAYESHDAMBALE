@@ -4,7 +4,7 @@ function getFormvalue(event) {
 	event.preventDefault();
 
 	let firstName = document.querySelector("input[name='fname']").value.trim();
-	let lastname = document.querySelector("input[name = 'lname']").value.trim();
+	let lastname = document.querySelector("input[name='lname']").value.trim();
 
 	if( !firstName || !lastname){
 		alert("Please enter both first and last name");
