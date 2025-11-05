@@ -1,4 +1,4 @@
-function getFormvalue(event) {
+function getFormvalue() {
     //Write your code here
 
 	event.preventDefault();
